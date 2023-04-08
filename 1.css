@@ -1,0 +1,33 @@
+.my-h1 {
+    color: rgb(0, 90, 146);;
+    font-weight: bolder;
+    height: 50px;
+}
+
+.about-me {
+
+    color: rgb(0, 90, 146);
+}
+
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.btn{
+    transition: 0.15s;
+}
+
+.btn:hover {
+    color: rgb(0, 90, 146);
+    /* background-color: rgb(0, 90, 146); */
+    /* border-radius: 10px; */
+    /* text-decoration: underline red; */
+    border-bottom-width: 3px;
+    border-bottom-style: solid red;
+    font-weight: 700;
+    border-color: red;
+    cursor: pointer;
+}
